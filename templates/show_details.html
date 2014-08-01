@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+  <center><b>{{entry.event_name}}</b></center> </br>
+  <center><img src="{{entry.thumbnail}}" alt="NO IMAGE AVAILABLE."></center>
+</br>
+  <center>{{entry.post_content}}</center> </br>
+</br>
+  <b>Fee:</b> {{entry.fee}}</br>
+</br>
+  <b>Location:</b> {{entry.location}}</br>
+</br>
+  <b>Date:</b> {{entry.event_start_date}}
+{% endblock %}
